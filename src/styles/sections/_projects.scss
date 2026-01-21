@@ -26,8 +26,6 @@
     justify-content: space-between;
     margin-bottom: 8rem;
 
-    border: 1px solid blue;
-
     @include media-mobile-and-tablet-only {
       grid-template-columns: 1fr;
       margin-bottom: 4rem;
@@ -36,8 +34,6 @@
     &__text {
       text-align: left;
       inline-size: phone-columns(6);
-
-      border: 1px solid red;
 
       @include media-tablet {
         inline-size: tablet-columns(6);
