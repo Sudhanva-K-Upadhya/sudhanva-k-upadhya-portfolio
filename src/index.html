@@ -20,9 +20,9 @@
     <!-- Todo: put here your site title -->
     <title>My Portfolio</title>
     <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
-    <meta name="keywords" content="[username], [name], skill" />
+    <!-- <meta name="keywords" content="[username, [name], skill" /> -->
     <!-- Todo: improve your SEO by adding a small description of you -->
-    <meta name="description" content="[Sudhanva K Upadhya] | Robotics and AI" />
+    <meta name="description" content="Sudhanva K Upadhya | Robotics and AI" />
 
     <link
       rel="stylesheet"
@@ -35,8 +35,8 @@
     ></script>
 
     <!-- Todo: remove the below script once you finish your portfolio -->
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
-  </head>
+    <!-- <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </head> -->
 
   <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
   <body>
@@ -46,9 +46,10 @@
     <section id="hero" class="jumbotron">
       <div class="container">
         <h1 class="hero-title load-hidden">
-          Hello, my name is <span class="text-color-main">Sudhanva K Upadhya</span>
-          <br />
-          I'm a Robotics and AI Engineer.
+          Hello ! I am <span class="text-color-main">Sudhanva K Upadhya.</span>
+          </h1>
+          <h1 class="hero-title load-hidden" style="padding-top: 5px;">
+            A 3rd year B.Tech Robotics and AI student at NMAM Institute of Tecnology, Nitte.
         </h1>
         <p class="hero-cta load-hidden">
           <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
@@ -79,9 +80,11 @@
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info load-hidden">
               <p class="about-wrapper__info-text">
-                currently 3rd year B.Tech student in Robotics and Artificial Intelligence with a strong interest in robotic systems. Focused on improving system efficiency and performance 
-                through effective hardware-software integration. Skilled in both software development 
-                and hardware implementation, with a focus on building practical and innovative robotics solutions.
+                I'm a 3rd-year B.Tech Robotics and AI student, passionate about 
+                building intelligent and efficient Robotic and AI systems. I enjoy turning 
+                theoretical concepts into real-world solutions.
+                With interests in coding, robotics, and AI, I focus on creating systems
+                that are not just functional, but optimized, reliable, and impactful.
               </p>
               <p class="about-wrapper__info-text">
                 <!-- Extra Information about you! like hobbies and your goals. -->
@@ -103,47 +106,55 @@
     </section>
     <!-- /END About Section -->
 
+
+
+
+
+
+
+    
+
     <!-- **** Projects Section **** -->
     <section id="projects">
       <div class="container">
         <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">Projects</h2>
+          <!-- <h2 class="section-title dark-blue-text">Projects</h2> -->
+           <h2 class="section-title dark-blue-text" style="display: inline-block; background: #02aab0; color: white; padding: 15px 40px; border-radius: 50px; margin-bottom: 80px;">Projects</h2>
 
           <!-- Notice: each .row is a project -->
           <div class="row">
-            <div class="col-lg-4 col-sm-12">
+            <div class="col-lg-6 col-sm-12">
               <div class="project-wrapper__text load-hidden">
                 <h3 class="project-wrapper__text-title">Aruco based Mobile Robot Navigation (Differential Wheel)</h3>
                 <div>
                   <p class="mb-4">
-                    Developed a Differential Wheel mobile robot navigation system using ArUco markers.
-                    The system integrates Python and C for control and communication, with 
-                    computer vision implemented using OpenCV. Robot motion and path correction
-                    are based on mobile robot kinematics, enabling accurate and 
-                    real-time navigation toward target positions.
+                    Developed a differential drive mobile robot navigation system using ArUco markers.
+                    The system integrates Python and C for control and communication, with OpenCV for
+                    computer vision. This utilizes differential drive forward kinematics and
+                    real-time navigation, enabling the robot to move accurately toward target position.
                   </p>
                 </div>
-                <a
+                <!-- <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
                   href="#!"
                 >
                   See Live
-                </a>
+                </a> -->
                 <a
                   rel="noreferrer"
                   target="_blank"
-                  class="cta-btn text-color-main"
+                  class="cta-btn cta-btn--hero"
                   href="https://github.com/Sudhanva-K-Upadhya/aruco-robot-navigation"
                 >
                   Source Code
                 </a>
               </div>
             </div>
-            <div class="col-lg-8 col-sm-12">
+            <div class="col-lg-6 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
+                <a rel="noreferrer"  target="_blank">
                   <div
                     data-tilt
                     data-tilt-max="4"
@@ -166,38 +177,38 @@
 
           <!-- Notice: each .row is a project -->
           <div class="row">
-            <div class="col-lg-4 col-sm-12">
+            <div class="col-lg-6 col-sm-12">
               <div class="project-wrapper__text load-hidden">
                 <h3 class="project-wrapper__text-title">Aruco based Mobile Robot Navigation (Mecannum Wheel)</h3>
                 <div>
                   <p class="mb-4">
-                    Developed a Mecannum Wheel mobile robot navigation system using ArUco markers.
-                    The system integrates Python and C for control and communication, with 
-                    computer vision implemented using OpenCV. The Robot moves according to the Aruco Marker numbers from 1-5 and returns 
-                    to the original Position.
+                    Developed a mecanum wheel mobile robot navigation system using ArUco markers. 
+                    The system integrates Python and C for control and communication, with OpenCV for computer vision. 
+                    This utilizes omnidirectional motion and real-time navigation, enabling the robot to move accurately 
+                    between predefined ArUco marker positions and return to its original position.
                   </p>
                 </div>
-                <a
+                <!-- <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
                   href="#!"
                 >
                   See Live
-                </a>
+                </a> -->
                 <a
                   rel="noreferrer"
                   target="_blank"
-                  class="cta-btn text-color-main"
+                  class="cta-btn cta-btn--hero"
                   href="https://github.com/Sudhanva-K-Upadhya/aruco-robot-navigation"
                 >
                   Source Code
                 </a>
               </div>
             </div>
-            <div class="col-lg-8 col-sm-12">
+            <div class="col-lg-6 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
+                <a rel="noreferrer"  target="_blank">
                   <div
                     data-tilt
                     data-tilt-max="4"
@@ -220,39 +231,37 @@
 
           <!-- Notice: each .row is a project -->
           <div class="row">
-            <div class="col-lg-4 col-sm-12">
+            <div class="col-lg-6 col-sm-12">
               <div class="project-wrapper__text load-hidden">
                 <h3 class="project-wrapper__text-title">CNC Pen Plotter</h3>
                 <div>
                   <p class="mb-4">
-                    Built a DIY CNC Pen Plotter that can draw digital 
-                    designs on paper with high accuracy. I customized the GRBL firmware 
-                    to add a reliable homing sequence, ensuring the machine knows its exact 
-                    starting position every time. The project involved assembling the mechanical 
-                    frame, wiring motors, and fine-tuning the motion control software.
+                    Built a DIY CNC pen plotter capable of drawing digital designs on paper with high accuracy. 
+                    Customized the GRBL firmware to implement a reliable homing sequence for my design. 
+                    Assembled the mechanical frame, wired motors, and fine-tuned the motion control parameters.
                   </p>
                 </div>
-                <a
+                <!-- <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
                   href="#!"
                 >
                   See Live
-                </a>
+                </a> -->
                 <a
                   rel="noreferrer"
                   target="_blank"
-                  class="cta-btn text-color-main"
+                  class="cta-btn cta-btn--hero"
                   href="https://github.com/Sudhanva-K-Upadhya/CNC-Pen-Plotter-with-Custom-GRBL-Homing"
                 >
                   Source Code
                 </a>
               </div>
             </div>
-            <div class="col-lg-8 col-sm-12">
+            <div class="col-lg-6 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
+                <a rel="noreferrer"  target="_blank">
                   <div
                     data-tilt
                     data-tilt-max="4"
@@ -275,39 +284,36 @@
 
           <!-- Notice: each .row is a project -->
           <div class="row">
-            <div class="col-lg-4 col-sm-12">
+            <div class="col-lg-6 col-sm-12">
               <div class="project-wrapper__text load-hidden">
                 <h3 class="project-wrapper__text-title">6 DOF Robot Arm</h3>
                 <div>
                   <p class="mb-4">
-                    Built a 6-DOF Robotic Arm based on 
-                    the EB15 design from Toolbox Robotics. 
-                    I handled the full mechanical assembly, motor 
-                    integration, and wiring. I also wrote the control 
-                    logic to manage the six joints, and also implemented "Record and Play" feature.
-                  </p>
+                    Built a 6-DOF robotic arm based on the EB15 design from Toolbox Robotics. 
+                    Handled full mechanical assembly, motor integration, and wiring. 
+                    Developed control logic to manage all six joints and implemented a “record and playback” feature.
                 </div>
-                <a
+                <!-- <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
                   href="#!"
                 >
                   See Live
-                </a>
+                </a> -->
                 <a
                   rel="noreferrer"
                   target="_blank"
-                  class="cta-btn text-color-main"
+                  class="cta-btn cta-btn--hero"
                   href="https://github.com/Sudhanva-K-Upadhya/6-DOF-Robot-arm"
                 >
                   Source Code
                 </a>
               </div>
             </div>
-            <div class="col-lg-8 col-sm-12">
+            <div class="col-lg-6 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
+                <a rel="noreferrer"  target="_blank">
                   <div
                     data-tilt
                     data-tilt-max="4"
@@ -333,45 +339,55 @@
     </section>
     <!-- /END Projects Section -->
 
+
+
+
+
+
+
+
     <!-- **** SIDE PROJECTS **** -->
     <section id="projects">
       <div class="container">
         <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">Side Projects</h2>
+          <h2 class="section-title dark-blue-text" style="display: inline-block; background: #02aab0; color: white; padding: 15px 40px; border-radius: 50px; margin-bottom: 80px;">Side Projects</h2>
+        <br/>
+        <br/>
+        <br/>
 
           <!-- Notice: each .row is a project -->
           <div class="row">
-            <div class="col-lg-4 col-sm-12">
+            <div class="col-lg-6 col-sm-12">
               <div class="project-wrapper__text load-hidden">
                 <h3 class="project-wrapper__text-title">Robot Arm simulation</h3>
                 <div>
                   <p class="mb-4">
-                    Developed a Robot Arm simulation software that can show the position and orientation of the robot arm,
-                    Home Position, and how the DH parameter affects the robot arm looks and movement.
-                    This was developed using python and pyqt5 for the GUI.
+                    Developed robot arm simulation software to visualize position, orientation, and home configuration. 
+                    Demonstrated the effect of Denavit-Hartenberg (DH) parameters on robot structure and motion. 
+                    Built using Python with a PyQt5-based GUI.
                   </p>
                 </div>
-                <a
+                <!-- <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
                   href="#!"
                 >
                   See Live
-                </a>
+                </a> -->
                 <a
                   rel="noreferrer"
                   target="_blank"
-                  class="cta-btn text-color-main"
+                  class="cta-btn cta-btn--hero"
                   href="https://github.com/Sudhanva-K-Upadhya/robo-arm-sim"
                 >
                   Source Code
                 </a>
               </div>
             </div>
-            <div class="col-lg-8 col-sm-12">
+            <div class="col-lg-6 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
+                <a rel="noreferrer"  target="_blank">
                   <div
                     data-tilt
                     data-tilt-max="4"
@@ -394,37 +410,36 @@
 
           <!-- Notice: each .row is a project -->
           <div class="row">
-            <div class="col-lg-4 col-sm-12">
+            <div class="col-lg-6 col-sm-12">
               <div class="project-wrapper__text load-hidden">
                 <h3 class="project-wrapper__text-title">Image Processing</h3>
                 <div>
                   <p class="mb-4">
-                    Developed a Image Processing software which can take any image and output 
-                    with the some common image processing techniques. User can select which technique to 
-                    use and also save that output image.
+                    Developed image processing software that applies common techniques to input images. 
+                      Users can select specific operations and save the processed output.
                   </p>
                 </div>
-                <a
+                <!-- <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
                   href="#!"
                 >
                   See Live
-                </a>
+                </a> -->
                 <a
                   rel="noreferrer"
                   target="_blank"
-                  class="cta-btn text-color-main"
+                  class="cta-btn cta-btn--hero"
                   href="https://github.com/Sudhanva-K-Upadhya/Image-processing-"
                 >
                   Source Code
                 </a>
               </div>
             </div>
-            <div class="col-lg-8 col-sm-12">
+            <div class="col-lg-6 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
+                <a rel="noreferrer"  target="_blank">
                   <div
                     data-tilt
                     data-tilt-max="4"
@@ -466,6 +481,17 @@
             href="mailto:sudhanvaupadhya108@gmail.com"
             >sudhanvaupadhya108@gmail.com</a
           >
+          <div class="social-links">
+          <!-- <a rel="noreferrer" href="#!" target="_blank">
+            <i class="fa fa-twitter fa-inverse"></i>
+          </a> -->
+          <a rel="noreferrer" href="https://www.linkedin.com/in/sudhanva-k-upadhya-21446638b" target="_blank">
+            <i class="fa fa-linkedin fa-inverse fa-2x"></i>
+          </a>
+          <a rel="noreferrer" href="https://github.com/Sudhanva-K-Upadhya" target="_blank">
+            <i class="fa fa-github fa-inverse fa-2x"></i>
+          </a>
+        </div>
         </div>
       </div>
     </section>
@@ -477,17 +503,17 @@
         <a rel="noreferrer" href="#top" class="back-to-top">
           <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
         </a>
-        <div class="social-links">
+        <!-- <div class="social-links"> -->
           <!-- <a rel="noreferrer" href="#!" target="_blank">
             <i class="fa fa-twitter fa-inverse"></i>
           </a> -->
-          <a rel="noreferrer" href="https://www.linkedin.com/in/sudhanva-k-upadhya-21446638b" target="_blank">
+          <!-- <a rel="noreferrer" href="https://www.linkedin.com/in/sudhanva-k-upadhya-21446638b" target="_blank">
             <i class="fa fa-linkedin fa-inverse"></i>
           </a>
           <a rel="noreferrer" href="https://github.com/Sudhanva-K-Upadhya" target="_blank">
             <i class="fa fa-github fa-inverse"></i>
           </a>
-        </div>
+        </div> -->
 
         <hr />
 
